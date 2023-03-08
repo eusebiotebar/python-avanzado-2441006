@@ -8,5 +8,6 @@ nombres_unzip, apellidos_unzip = zip(*nombre_completo)
 print(nombres_unzip)
 print(apellidos_unzip)
 
-for nombre, apellido in zip(nombres, apellidos):
+#for nombre, apellido in zip(nombres, apellidos):
+for nombre, apellido in nombre_completo:
     print(nombre, apellido)
